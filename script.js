@@ -28,15 +28,34 @@
 // console.log(`rounded number: ${roundedNumber}`);
 
 
-let stringWithFloat = "123.456";
-let floatNumber = parseFloat(stringWithFloat);
+// let stringWithFloat = "123.456";
+// let floatNumber = parseFloat(stringWithFloat);
 
-console.log(`Numeber: ${floatNumber}`);
-
-
-
-let string = "12345";
-let number = parseInt(string, 10);
+// console.log(`Numeber: ${floatNumber}`);
 
 
-console.log(`Number rounded: ${number}`);
+
+// let string = "12345";
+// let number = parseInt(string, 10);
+
+
+// console.log(`Number rounded: ${number}`);
+
+
+// let number = 25;
+// let squareRoot = Math.sqrt(number);
+
+// console.log(` Square root of ${number} is equal to ${squareRoot}`);
+
+
+
+let numberAsString = "456";
+let parsedInteger = parseInt(numberAsString, 10);
+
+console.log(`number: ${parsedInteger}`);
+
+
+let integerValue = 789;
+let stringRepresentation = integerValue.toString();
+
+console.log(`String of number: "${stringRepresentation}"`);
